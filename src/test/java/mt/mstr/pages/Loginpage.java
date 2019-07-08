@@ -29,11 +29,13 @@ public class Loginpage
 	public void enterUserName(String username)
 	{
 		objusername.sendKeys(username);
+		System.out.println("Username has entered successfully");
 	}
 	
 	public void enterPassword(String password)
 	{
 		objpassword.sendKeys(password);
+		System.out.println("Password has entered successfully");
 	}
 	
 	public void clickonLogin()
@@ -51,6 +53,7 @@ public class Loginpage
     	
     	System.out.println("github changes");
     	System.out.println("github changes 2 ");
+    	
     	
     	Loginpage lg =new Loginpage();
     	lg.loadLoginpage();
