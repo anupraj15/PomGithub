@@ -49,6 +49,9 @@ public class Loginpage
     	lc.maximizeBrowser();
     	lc.waittillLoginpageLoaded(15);
     	
+    	System.out.println("github changes");
+    	System.out.println("github changes 2 ");
+    	
     	Loginpage lg =new Loginpage();
     	lg.loadLoginpage();
     	lg.enterUserName("Suvidyap1");
