@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="21954" started-at="2019-07-07T10:15:24Z" finished-at="2019-07-07T10:15:46Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="21954" started-at="2019-07-07T10:15:24Z" finished-at="2019-07-07T10:15:46Z">
+      <class name="mt.mstr.modules.Launch">
+        <test-method status="PASS" signature="executeLaunch(java.lang.String, java.lang.String, int)[pri:0, instance:mt.mstr.modules.Launch@2b80d80f]" name="executeLaunch" duration-ms="5629" started-at="2019-07-07T15:45:24Z" finished-at="2019-07-07T15:45:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://www.newtours.demoaut.com/mercurywelcome.php]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeLaunch -->
+      </class> <!-- mt.mstr.modules.Launch -->
+      <class name="mt.mstr.modules.Login">
+        <test-method status="PASS" signature="executeLoginwithValidds(java.lang.String, java.lang.String)[pri:1, instance:mt.mstr.modules.Login@7907ec20]" name="executeLoginwithValidds" duration-ms="8704" started-at="2019-07-07T15:45:30Z" finished-at="2019-07-07T15:45:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Suvidyap1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[P@ssword1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeLoginwithValidds -->
+        <test-method status="PASS" signature="executeLoginwithINValidds(java.lang.String, java.lang.String)[pri:2, instance:mt.mstr.modules.Login@7907ec20]" name="executeLoginwithINValidds" duration-ms="7591" started-at="2019-07-07T15:45:38Z" finished-at="2019-07-07T15:45:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Suvidyap]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[P@ssword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeLoginwithINValidds -->
+      </class> <!-- mt.mstr.modules.Login -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

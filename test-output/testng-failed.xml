@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="timeoutseconds" value="15"/>
+  <parameter name="usernm" value="Suvidyap1"/>
+  <parameter name="passwd" value="P@ssword1"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="passwd1" value="P@ssword"/>
+  <parameter name="usernm1" value="Suvidyap"/>
+  <parameter name="url" value="http://www.newtours.demoaut.com/mercurywelcome.php"/>
+  <test thread-count="5" name="Test">
+    <parameter name="timeoutseconds" value="15"/>
+    <parameter name="usernm" value="Suvidyap1"/>
+    <parameter name="passwd" value="P@ssword1"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="passwd1" value="P@ssword"/>
+    <parameter name="usernm1" value="Suvidyap"/>
+    <parameter name="url" value="http://www.newtours.demoaut.com/mercurywelcome.php"/>
+    <classes>
+      <class name="mt.mstr.modules.Launch">
+        <methods>
+          <include name="executeLaunch"/>
+        </methods>
+      </class> <!-- mt.mstr.modules.Launch -->
+      <class name="mt.mstr.modules.Login">
+        <methods>
+          <include name="executeLoginwithValidds"/>
+          <include name="executeLoginwithINValidds"/>
+        </methods>
+      </class> <!-- mt.mstr.modules.Login -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Failed suite [Suite] -->
